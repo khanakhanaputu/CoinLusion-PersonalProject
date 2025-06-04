@@ -8,6 +8,7 @@ function home()
     changeTitle("Home")
 ?>
     <?php navbar() ?>
+
     <section>
         <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8">
             <div class="space-y-5 max-w-4xl mx-auto text-center">
@@ -256,4 +257,5 @@ function home()
             </div>
         </div>
     </section>
+
 <?php } ?>

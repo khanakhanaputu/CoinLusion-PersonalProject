@@ -4,8 +4,8 @@ function navbar()
     <nav class="bg-white w-full border-b md:border-0 md:static">
         <div class="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div class="flex items-center justify-between py-3 md:py-5 md:block">
-                <a href="#">
-                    <img src="https://www.floatui.com/logo.svg" width="120" height="50" alt="Float UI logo" />
+                <a href="/" class="font-bold text-2xl">
+                    CoinLusion
                 </a>
                 <div class="md:hidden">
                     <button class="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
@@ -36,7 +36,7 @@ function navbar()
             </div>
 
             <div class="hidden md:inline-block">
-                <a class="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow" href="#">
+                <a class="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow" href="/register">
                     Get Started
                 </a>
             </div>
